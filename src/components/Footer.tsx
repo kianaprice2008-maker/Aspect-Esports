@@ -3,10 +3,10 @@ import { Twitter, Youtube, Twitch, MessageCircle, Mail, MapPin, Phone } from 'lu
 
 const Footer: React.FC = () => {
   const socialLinks = [
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Youtube, href: '#', label: 'YouTube' },
-    { icon: Twitch, href: '#', label: 'Twitch' },
-    { icon: MessageCircle, href: '#', label: 'Discord' },
+    { icon: Twitter, href: 'https://twitter.com/aspectesports', label: 'Twitter' },
+    { icon: Youtube, href: 'https://youtube.com/@aspectesports', label: 'YouTube' },
+    { icon: Twitch, href: 'https://twitch.tv/aspectesports', label: 'Twitch' },
+    { icon: MessageCircle, href: 'https://discord.gg/aspectesports', label: 'Discord' },
   ];
 
   const footerLinks = {
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
                   <div className="w-4 h-4 bg-gradient-to-r from-[#42d0f4] to-[#6096dc] rounded"></div>
                 </div>
               </div>
-              <span className="ml-3 text-xl font-bold text-white tracking-wider">NEXUS</span>
+              <span className="ml-3 text-xl font-bold text-white tracking-wider">ASPECT</span>
             </div>
             <p className="text-gray-400 mb-8 leading-relaxed">
               Elite esports organization breeding the next generation of professional gamers, content creators, and competitive champions.
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
         {/* Bottom Footer */}
         <div className="border-t border-gray-900 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-6 md:mb-0">
-            © 2024 NEXUS Esports. All rights reserved.
+            © 2024 ASPECT Esports. All rights reserved.
           </p>
           
           {/* Social Media Links */}
@@ -68,6 +68,8 @@ const Footer: React.FC = () => {
               <a
                 key={index}
                 href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-gray-900 p-3 rounded text-gray-400 hover:text-white hover:bg-gradient-to-r hover:from-[#42d0f4] hover:to-[#6096dc] transition-all duration-300"
                 aria-label={social.label}
               >

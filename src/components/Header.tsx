@@ -33,7 +33,7 @@ const Header: React.FC = () => {
             <div className="bg-gradient-to-r from-[#42d0f4] to-[#6096dc] p-2 rounded">
               <Shield className="w-8 h-8 text-white" />
             </div>
-            <span className="ml-3 text-xl font-bold text-white tracking-wider">NEXUS</span>
+            <span className="ml-3 text-xl font-bold text-white tracking-wider">ASPECT</span>
           </div>
 
           {/* Desktop Navigation */}

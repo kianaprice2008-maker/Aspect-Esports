@@ -3,10 +3,10 @@ import { Twitter, Youtube, Twitch, MessageCircle } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const socialLinks = [
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Youtube, href: '#', label: 'YouTube' },
-    { icon: Twitch, href: '#', label: 'Twitch' },
-    { icon: MessageCircle, href: '#', label: 'Discord' },
+    { icon: Twitter, href: 'https://twitter.com/aspectesports', label: 'Twitter' },
+    { icon: Youtube, href: 'https://youtube.com/@aspectesports', label: 'YouTube' },
+    { icon: Twitch, href: 'https://twitch.tv/aspectesports', label: 'Twitch' },
+    { icon: MessageCircle, href: 'https://discord.gg/aspectesports', label: 'Discord' },
   ];
 
   return (
@@ -28,16 +28,16 @@ const Hero: React.FC = () => {
         <div className="max-w-4xl space-y-8">
           {/* Main Heading */}
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-black text-white leading-none tracking-tight">
-            HOME OF
+            WELCOME TO
             <br />
             <span className="bg-gradient-to-r from-[#42d0f4] to-[#6096dc] bg-clip-text text-transparent">
-              THE NEXUS.
+              ASPECT.
             </span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-gray-300 max-w-2xl leading-relaxed">
-            Everything NEXUS - NEXUS is a premiere esports organization, breeding the 
+            Everything ASPECT - ASPECT is a premiere esports organization, breeding the 
             next-generation of esports professionals in gaming, content-creation and more!
           </p>
 
@@ -47,6 +47,8 @@ const Hero: React.FC = () => {
               <a
                 key={index}
                 href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-gradient-to-r from-[#42d0f4] to-[#6096dc] p-3 rounded text-white hover:scale-110 transition-all duration-300 group"
                 aria-label={social.label}
               >

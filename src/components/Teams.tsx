@@ -6,7 +6,7 @@ const Teams: React.FC = () => {
     {
       id: 1,
       game: 'VALORANT',
-      name: 'NEXUS VALORANT',
+      name: 'ASPECT VALORANT',
       players: 5,
       rank: '#3 EMEA',
       image: 'https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -14,7 +14,7 @@ const Teams: React.FC = () => {
     {
       id: 2,
       game: 'LEAGUE OF LEGENDS',
-      name: 'NEXUS LEC',
+      name: 'ASPECT LEC',
       players: 5,
       rank: '#1 LEC',
       image: 'https://images.pexels.com/photos/3194519/pexels-photo-3194519.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -22,7 +22,7 @@ const Teams: React.FC = () => {
     {
       id: 3,
       game: 'COUNTER-STRIKE 2',
-      name: 'NEXUS CS2',
+      name: 'ASPECT CS2',
       players: 5,
       rank: '#5 WORLD',
       image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400',

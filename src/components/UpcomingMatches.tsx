@@ -63,7 +63,7 @@ const UpcomingMatches: React.FC = () => {
               {/* Match Info */}
               <div className="mb-6">
                 <h3 className="text-2xl font-bold text-white mb-3 leading-tight">
-                  NEXUS
+                  ASPECT
                   <span className="text-gray-500 mx-3">VS</span>
                   {match.opponent}
                 </h3>
